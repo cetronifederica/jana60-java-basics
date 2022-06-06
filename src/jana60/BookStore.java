@@ -6,6 +6,9 @@ public class BookStore {
 		// TODO Auto-generated method stub
 		// titolo
 		String titolo = "9 algoritmi che hanno cambiato il futuro";
+		System.out.println("Titolo:" + " " + titolo);
+		
+		
 		// formato
 		boolean copertinaFlessibile = true;
 		boolean formatoKindle = false;
@@ -39,6 +42,7 @@ public class BookStore {
 		float altezza = 21f; 
 		float profondita = 1.7f; 
 		float larghezza = 13.7f;
+		System.out.print("Dimensioni:" + altezza + " " + "x" + " " + profondita + " " + "x" + " " + larghezza + " " + " " + "cm");
 		
 
 	}
