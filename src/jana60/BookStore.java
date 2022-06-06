@@ -31,7 +31,13 @@ public class BookStore {
 		float prezzoFinale = 17.10f;
 		float prezzoConsigliato = 18.00f;
 		double sconto = 0.05;
+		double scontoSulPrezzo = prezzoConsigliato * sconto;
+		double prezzoFinaleScontato = prezzoConsigliato - scontoSulPrezzo;
 		
+		System.out.println("Prezzo Consigliato: " + prezzoConsigliato);
+		System.out.println("Scontato del: " + sconto * 100 + "%");
+		System.out.println("Meno " + scontoSulPrezzo + " euro");
+		System.out.println("Prezzo Finale Scontato: " + prezzoFinaleScontato + " euro");
 		// editore 
 		String editore = "Apogeo Education"; 
 		
