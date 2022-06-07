@@ -19,7 +19,7 @@ public class LiveCodingEsercizio {
 		
 		System.out.println("Età persona 1: " + agePerson1);
 		System.out.println("Età persona 2: " + agePerson2);
-		if (agePerson1 > 0 && agePerson2 > 0) {
+		if (agePerson1 >= 0 && agePerson2 >= 0) {
 			// persona 1 più grande
 			if(agePerson1 > agePerson2) {
 				System.out.println("Persona 1 è più grande");
