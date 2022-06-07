@@ -13,7 +13,7 @@ public class PasswordGeneration {
 		int meseNascita = 3;
 		int annoNascita = 1997; 
 		int  sommaDataNascita = giornoNascita + meseNascita + annoNascita;
-		String password = nome + cognome + colorePreferito + sommaDataNascita; 
+		String password = nome + "-" + cognome + "-" + colorePreferito + "-" + sommaDataNascita; 
 		System.out.println(password);
 
 	}
