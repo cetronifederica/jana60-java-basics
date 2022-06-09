@@ -36,6 +36,9 @@ public class LiveCodingEsercizio {
 		 * 1 caso: perona1 25 anni, persona2 30 anni - risposta giusta
 		 * 2 caso: persona1 30 anni, persona2 25 anni - risposta giusta
 		 * 3 caso: persona2 30 anni, persona2 30 anni - risposta giusta
+		 * 4 caso: persona1 -5 anni, persona2 30 anni - risposta giusta
+		 * 5 caso: persona1 30 anni, persona2 -6 anni - risposta giusta
+		 * 6 caso: persona1 o anni, persona2 0 anni - risposta giusta
 		 */
 		
 		
