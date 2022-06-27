@@ -48,6 +48,8 @@ public class EsercizioLiveCoding {
 		} else {
 			System.out.println("Hai perso");
 		}
+		
+		scan.close();
 	}
 
 }
