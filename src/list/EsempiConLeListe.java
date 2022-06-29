@@ -1,6 +1,7 @@
 package list;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class EsempiConLeListe {
 
@@ -41,6 +42,15 @@ public class EsempiConLeListe {
 		// se contiene un particolare elemento
 		System.out.println(listaDiStringhe.contains("Ciao"));
 
+		// ordinare la lista
+		Collections.sort(listaDiStringhe);
+		// non ritorna niente è un metodo void
+		// verrà ordinata in base al loro contenuto, se ho una lista di
+		// stringhe le ordinerà in ordine alfabetico
+		System.out.println(listaDiStringhe);
+
+		// il problema è quando per esempio ho una lista di prodotti
+		// come fa java a sapere come ordinare quei prodotti?
 	}
 
 }
